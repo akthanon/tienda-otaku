@@ -1,5 +1,5 @@
 // ============ CONFIGURACIÓN ============
-const API_URL = 'http://localhost/api';
+const API_URL = 'http://localhost:5000/api';
 let currentCategory = 'all';
 let cart = [];
 let products = [];
