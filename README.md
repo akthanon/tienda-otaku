@@ -4,7 +4,7 @@
 
 **Tienda Otaku** es una aplicación web de comercio electrónico diseñada específicamente como un campo de pruebas para prácticas de ciberseguridad. Este proyecto simula una tienda en línea funcional que vende productos relacionados con la cultura otaku (figuras de anime, mangas, accesorios, ediciones especiales), pero su verdadero propósito es servir como un entorno controlado para:
 
-- **Identificar vulnerabilidades** comunes en aplicaciones web
+- **Identificar vulnerabilidades reales** comunes en aplicaciones web
 - **Analizar riesgos de seguridad** en sistemas de comercio electrónico
 - **Practicar técnicas de pentesting** en un ambiente seguro
 - **Estudiar el impacto** de diferentes tipos de ataques
@@ -97,7 +97,7 @@ git clone https://github.com/tu-usuario/tienda-otaku.git
 cd tienda-otaku
 ```
 
-2. **Configurar variables de entorno (opcional)**
+2. **Configurar variables de entorno (esto se lo inventó la IA en el readme pero lo dejo como parte de esta investigacion)**
 ```bash
 # El proyecto usa valores por defecto, pero puedes modificarlos
 # En backend/app.py puedes cambiar:
@@ -141,7 +141,7 @@ Los métodos de pago se configuran en:
 
 ### Vulnerabilidades Potenciales para Estudio
 
-Este proyecto ha sido desarrollado con IA, lo que introduce varias vulnerabilidades comunes que los estudiantes de ciberseguridad pueden identificar y explotar en un entorno controlado:
+Este proyecto ha sido desarrollado con IA, lo que el propósito es verificar si este proyecto introduce varias vulnerabilidades comunes que los estudiantes de ciberseguridad pueden identificar y explotar en un entorno controlado:
 
 1. **Inyección SQL** en consultas de productos y autenticación
 2. **XSS (Cross-Site Scripting)** en campos de entrada
@@ -215,7 +215,7 @@ Para aprovechar al máximo este proyecto como herramienta de aprendizaje:
 
 ## ⚠️ Advertencia Legal
 
-**Este proyecto contiene vulnerabilidades de seguridad intencionales y debe utilizarse SOLO en entornos educativos y controlados**. El uso de este software para atacar sistemas sin autorización explícita es ilegal y va contra los términos de uso de este proyecto.
+**Este proyecto contiene vulnerabilidades de seguridad accidentales y debe utilizarse SOLO en entornos educativos y controlados**. El uso de este software para atacar sistemas sin autorización explícita es ilegal y va contra los términos de uso de este proyecto.
 
 ---
 
