@@ -219,10 +219,4 @@ Para aprovechar al máximo este proyecto como herramienta de aprendizaje:
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo licencia MIT - ver el archivo LICENSE para más detalles.
-
----
-
 **¡Feliz aprendizaje y práctica de ciberseguridad!** 🔒
