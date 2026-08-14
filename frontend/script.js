@@ -1,5 +1,5 @@
 // ============ CONFIGURACIÓN ============
-const API_URL = 'https://otaku-backend.cuackerman.uk/api';
+const API_URL = 'http://localhost/api';
 let currentCategory = 'all';
 let cart = [];
 let products = [];
