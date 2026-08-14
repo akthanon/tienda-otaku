@@ -1,0 +1,35 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../Dockerfile.backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+      - ./data:/app/data  # Persistir base de datos
+    environment:
+      - DATABASE_PATH=/app/data/otaku_store.db
+    networks:
+      - otaku-network
+    restart: always
+
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../Dockerfile.frontend
+    ports:
+      - "48080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html  # Persistir archivos del frontend
+      - ./frontend/images:/usr/share/nginx/html/images  # Persistir imágenes
+    depends_on:
+      - backend
+    networks:
+      - otaku-network
+    restart: always
+
+networks:
+  otaku-network:
+    driver: bridge
