@@ -1,0 +1,4 @@
+Flask==2.3.2
+Flask-CORS==4.0.0
+SQLAlchemy==2.0.19
+Flask-Limiter==3.5.0
